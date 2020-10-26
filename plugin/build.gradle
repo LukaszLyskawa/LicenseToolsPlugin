@@ -16,7 +16,7 @@ pluginBundle {
 gradlePlugin {
     plugins {
         licenseToolsPlugin {
-            id = 'com.lyskawa.android.plugin.license-tools'
+            id = 'pl.lyskawa.android.plugin.license-tools'
             displayName = 'LicenseToolsPlugin'
             description = 'Gradle plugin to check library licenses and generate license pages.'
             implementationClass = 'com.cookpad.android.plugin.license.LicenseToolsPlugin'
