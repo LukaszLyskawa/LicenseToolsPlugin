@@ -56,7 +56,7 @@ gradlePlugin {
 apply plugin: 'maven'
 
 archivesBaseName = 'license-tools'
-group = 'com.lyskawa.android.plugin'
+group = 'pl.lyskawa.android.plugin'
 version = System.getenv('TAG_VERSION') ?: "1.2.5"
 
 dependencies {
